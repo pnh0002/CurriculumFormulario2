@@ -1,0 +1,17 @@
+table,th,td{
+    border: 1px solid black; 
+    text-align: center;
+}
+td{
+    align-content: center;
+    padding: 10px;
+    
+}
+body{
+    align-content: center;
+    padding-left: 250px;
+    align-items: stretch;
+}
+#Encabezado,#horas,#Descanso,#dia{
+    background-color: lightblue;
+}

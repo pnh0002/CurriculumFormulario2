@@ -1,0 +1,182 @@
+/*Declaración de un estilo global para toda la página web*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+h2{
+    text-align: center;
+    margin: 10px; 
+}
+h1{}
+
+/*--------------------------------------------------------*/    
+
+body{
+    background-color: whitesmoke;
+    display: grid;
+    height: 100vh;
+}
+
+main{
+    max-height: 100%;
+    margin: 3px;
+    margin-right: 3px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    align-items: stretch;
+}
+
+header{
+    align-items: center;
+    margin-left: 400px;
+    margin: 3px; 
+    padding: 5px; 
+}
+
+#texto{
+    padding: 20px; 
+}
+
+/*Estilos para los enlaces*/
+
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: red; 
+}
+
+/*-----------------------*/
+
+.iframe{
+    padding: 80px; 
+    margin-left: 400px;
+    margin-top: -200px;
+}
+.imagen{
+    margin-right: 400px;
+}
+h1{
+    align-self: center;
+    background-color: lightblue;
+    padding: 1px;
+    margin-bottom: 0px;
+    border: 2.5px solid black; 
+    align-items: stretch;
+
+    
+}
+/*
+#Datos_Personales, #Educacion, #Menu{           //No borrar, esta es la configuración que quiero para el trabajo
+    background-color: whitesmoke;
+    margin-bottom: 0px;
+    border: 2.5px solid black; 
+    margin-top: 2.5px;
+    margin-right: 750px;
+}*/
+#Presentacion{
+    /*min-width: 50%;
+    width: 50%;
+    padding: 5px;
+    background-color: whitesmoke;
+    border: 2.5px solid black;  
+    margin-bottom: 0px;
+    margin-top: 2.5px;
+    margin-right: 750px;
+    align-items: stretch; */
+    min-width: 35%;
+    width: 35%;
+    padding: 5px;
+    background-color: whitesmoke;
+    border: 2.5px solid black;  
+    display: grid;
+    align-items: stretch;
+}
+#Datos_Personales, #Educacion, #Menu,#Habilidades{
+    padding: 20px;
+    background-color: lightblue;
+    border: 2.5px solid black;  
+    display: grid;
+    align-items: stretch;
+}
+#listaMenu,#listaDatos,#listaAutodidacta,#listaProfesional,#listaHabilidades{
+    padding: 10px;
+}
+#imagen{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+#iframe{
+   
+    margin-right: 20px;
+    
+}
+#img{
+    margin-left: 20px;
+    max-width: 100%;
+    height: auto;
+
+}
+#Encabezado{
+    display: flex; 
+    align-items: center;
+   /* justify-content: center;*/
+}
+#miCara{
+    border: 2.5px solid #000; 
+    border-radius: 25px;
+    width: 50px;
+    height:50px;
+    padding: 2.5px; 
+
+}
+#Nombre{
+    margin-left: 50px;
+}
+
+
+
+/*Estilos de la imagen*/
+/*
+#img{
+    margin-top: -650px;
+    height: 100px;
+    width: 100px;
+}
+#inframe{
+    border: 2.5px solid black;
+}
+    */
+/*
+#iframe,#img{
+    margin-left: 850px;
+    margin-top: -600px;
+    border: 2.5px solid black;
+}*//*
+#imagen{
+    margin-left: 850px;
+    margin-top: -600px;
+    border: 2.5px solid black; 
+    padding: 30px;
+}*/
+
+/*Descripcion*/
+#Descripcion{
+    min-width: 65%;
+    width: 65%;
+    padding: 5px;
+    background-color: whitesmoke;
+    border: 2.5px solid black;  
+    display: grid;
+    align-items: stretch;
+}

@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilosFormulario.css">
+
+</head>
+<body>
+    <h1>Formulario de Curriculum</h1>
+    <form action="proceso.php" method="post">
+    <section>
+        
+            <fieldset><legend><p >Datos Personales</p></legend>
+            Nombre: <input type="text" name="Nombre" placeholder="Pablo"><br><br>
+            Apellidos: <input type="text" name="Apellidos" placeholder="NIeto Hurtado"><br><br>
+            Edad: <input type="text" name="Edad" placeholder="18"><br><br>
+            <p>Género:</p>
+            <input type="radio" name="Hombre">Hombre
+            <input type="radio" name = "Mujer">Mujer
+                
+        
+        </fieldset>
+    </section>
+    <section>
+       
+            <fieldset><legend><p>Contacto</p></legend>
+                Correo Electrónico: <input type="text" name="Correo electronico" placeholder="pnh0002@alu.medac.es"><br><br>
+                Codigo Postal: <input type="text" name="Codigo Postal" placeholder="23700"><br><br>
+                Dirección: <input type="text" name="Direccion" placeholder="Calle Jaen, 72"><br><br>
+                Ciudad: <select name="opciones " size="1">
+                    <option value="1"  >Jaén</option>
+                    <option value="2"  >Linares</option>
+                    <option value="3"  >Bailen</option>
+                </select><br><br>
+                Contraseña: <input type = "text" name="Contraseña" maxlength="16" pattern=".{4,}" placeholder="12345"><br>
+
+
+            </fieldset>
+
+       
+
+    </section>
+    <section>
+        
+            <fieldset><legend><p>Datos de Interes</p></legend>
+                <p>Estado Civil:</p>
+                <input type="radio" name="Casado">Casado
+                <input type="radio" name = "No Casado">No casado <br>
+                <p>Hobbies:</p>
+                <input type="checkbox" name="Deporte">Deporte <br>
+                <input type="checkbox" name="Cine">Cine <br>
+                <input type="checkbox" name="Lectura"> Lectura <br>
+                <input type="checkbox" name="Correr"> Correr <br>
+
+            </fieldset>
+
+
+    </section>
+    <section>
+    
+        <fieldset><legend><p>Comentario Adicionales</p></legend>
+            <p>Escribe aquí tus comentarios:</p>
+            <textarea name="comentario" rows="4" cols="50" placeholder="Añadir un comentario aquí"></textarea>
+
+        </fieldset>
+        
+    </section>
+    <section>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetear">
+            <input  type="button" onclick="history.back()" value="Volver al Formulario">
+        </p>
+    </section>
+    </from>
+    
+</body>
+</html>
